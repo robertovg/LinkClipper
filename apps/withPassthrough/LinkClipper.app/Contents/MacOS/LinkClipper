@@ -8,12 +8,12 @@ if [ -z "$link" ]; then
   exit 1
 fi
 
-# Open the link in the default browser, comment your preferred browser
+# Open the link in the default browser, keep your preferred browser uncommented
+/usr/bin/open -a /Applications/Google\ Chrome.app/ "$link"
+# /usr/bin/open -a /Applications/Google\ Chrome\ Canary.app/ "$link"
 # /usr/bin/open -a /Applications/Safari.app/ "$link"
 # /usr/bin/open -a /Applications/Firefox.app/ "$link"
 # /usr/bin/open -a /Applications/Opera.app/ "$link"
-# /usr/bin/open -a /Applications/Google\ Chrome.app/ "$link"
-/usr/bin/open -a /Applications/Google\ Chrome\ Canary.app/ "$link"
 
 # Copy the link to the clipboard
 echo "$link" | pbcopy

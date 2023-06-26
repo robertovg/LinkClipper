@@ -1,6 +1,0 @@
-#!/bin/sh
-
-# Insert shell script code
-osascript -e 'tell app "Finder" to display dialog "Hello Cool IT Help"'
-
-exit 0

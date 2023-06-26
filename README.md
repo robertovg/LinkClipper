@@ -4,7 +4,7 @@
 
 This is just a simple MacOS application that can be used to copy links to the clipboard when opening any link. It's created with 2 main use cases in mind:
 
-To get all the potential of the this application it's recommended to use LinkClipper with a clipboard manager application in Mac OS like:
+To get full potential of this application it's recommended to use LinkClipper with a clipboard manager application in Mac OS like:
 
 - [Alfred](https://www.alfredapp.com/)
 - [RayCast](https://raycast.com/)
@@ -15,13 +15,15 @@ To get all the potential of the this application it's recommended to use LinkCli
 
 ### With Passthrough - Copying links from the browser
 
-Adding this version of LinkClipper as the default browser, will make any link you open to go to the clipboard.
+Adding this version of LinkClipper as your default browser, will make any link you open in your system to get added to your clipboard before it's opened in your browser. Just remember to change your preferred browser by uncommenting it in `apps/withPassthrough/LinkClipper.app/Contents/MacOS/LinkClipper`.
 
-When you copy a link from the browser, it will be automatically copied to the clipboard. This is useful when you want to copy a link from the browser to another application, but you don't want to open the link in the browser.
+Then you have to set LinkClipper as the default browser in `System Preferences > General > Default web browser`.
+
+Any link follow in your system from now on will be automatically copied into the clipboard. This is useful when you want to copy a link from the browser to another application, but you don't want to open the link in the browser, and then copy from the URL bar.
 
 ### Only Copy - Copying links from any application
 
-Same applications but this time this application only works as a way to copy links from any application. This is useful used in combination with [Choosy](https://choosy.app/), so we have a quick way to copy links from anywhere.
+This version of the application works only as a way to copy links from any application. This is useful used in combination with [Choosy](https://choosy.app/), so we have a quick way to copy links from anywhere in Choosy instead opening.
 
 ## Credits
 
