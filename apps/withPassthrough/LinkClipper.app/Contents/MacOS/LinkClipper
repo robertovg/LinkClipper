@@ -1,0 +1,21 @@
+#!/bin/sh
+
+link=$1
+
+if [ -z "$link" ]; then
+  osascript -e 'tell app "Finder" to display dialog "Please provide a link as an argument."'
+  osascript -e "tell app \"Finder\" to display dialog \"Script: $0\nArgument: $1.\""
+  exit 1
+fi
+
+# Open the link in the default browser, comment your preferred browser
+# /usr/bin/open -a /Applications/Safari.app/ "$link"
+# /usr/bin/open -a /Applications/Firefox.app/ "$link"
+# /usr/bin/open -a /Applications/Opera.app/ "$link"
+# /usr/bin/open -a /Applications/Google\ Chrome.app/ "$link"
+/usr/bin/open -a /Applications/Google\ Chrome\ Canary.app/ "$link"
+
+# Copy the link to the clipboard
+echo "$link" | pbcopy
+
+exit 0
