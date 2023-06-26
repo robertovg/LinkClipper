@@ -4,7 +4,6 @@ link=$1
 
 if [ -z "$link" ]; then
   osascript -e 'tell app "Finder" to display dialog "Please provide a link as an argument."'
-  osascript -e "tell app \"Finder\" to display dialog \"Script: $0\nArgument: $1.\""
   exit 1
 fi
 

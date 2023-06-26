@@ -11,8 +11,8 @@
     <string>1.0</string>
     <key>CFBundleIconFile</key>
     <string>app</string>
-   	<key>CFBundleIdentifier</key>
-	  <string>com.robertovg.LinkClipperWithPassthrough</string>
+  	<key>CFBundleIdentifier</key>
+	  <string>com.robertovg.LinkClipperOnlyCopy</string>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
