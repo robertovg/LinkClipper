@@ -3,7 +3,7 @@
 link=$1
 
 if [ -z "$link" ]; then
-  osascript -e 'tell app "Finder" to display dialog "Please provide a link as an argument."'
+  osascript -e 'tell app "Finder" to display alert  "Please provide a link as an argument."'
   exit 1
 fi
 
