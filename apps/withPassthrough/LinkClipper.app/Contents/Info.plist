@@ -32,6 +32,11 @@
         </array>
       </dict>
     </array>
+    <key>LSEnvironment</key>
+    <dict>
+      <key>URL</key>
+      <string>$1</string>
+    </dict>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
     <key>NSHighResolutionCapable</key>

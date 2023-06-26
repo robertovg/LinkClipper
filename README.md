@@ -23,7 +23,7 @@ Any link follow in your system from now on will be automatically copied into the
 
 ### Only Copy - Copying links from any application
 
-This version of the application works only as a way to copy links from any application. This is useful used in combination with [Choosy](https://choosy.app/), so we have a quick way to copy links from anywhere in Choosy instead opening.
+This version of the application works only as a way to copy links from any application. This is useful used in combination with [Choosy](https://choosy.app/) or [finicky](https://github.com/johnste/finicky), so when you try to open a link you can select LinkClipper to only copy the link to the clipboard.
 
 ## Credits
 

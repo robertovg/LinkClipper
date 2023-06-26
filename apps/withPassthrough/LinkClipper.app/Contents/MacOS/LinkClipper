@@ -3,6 +3,16 @@
 link=$1
 
 if [ -z "$link" ]; then
+  # Extract the URL from the --args option
+  for arg in "$@"; do
+    if [[ $arg == "http"* ]]; then
+      link="$arg"
+      break
+    fi
+  done
+fi
+
+if [ -z "$link" ]; then
   osascript -e 'tell app "Finder" to display alert  "Please provide a link as an argument."'
   exit 1
 fi
